@@ -25,24 +25,29 @@ https://www.kaggle.com/datasets/bittlingmayer/amazonreviews
 This dataset contains millions of reviews with ratings, text, timestamps, and helpfulness metrics—ideal for sentiment classification and NLP.
 
 📑 Dataset Features
-Feature	Description
-Id	Unique review identifier
-ProductId	Unique product code
-UserId	Unique customer/user identifier
-ProfileName	Name of the reviewer
-HelpfulnessNumerator	Number of users who found the review helpful
-HelpfulnessDenominator	Total number of users who rated the review
-Score	Customer rating (1 to 5)
-Time	Review timestamp
-Summary	Short summary of the review
-Text	Full customer review text
+| **Feature**                | **Description**                                              |
+| -------------------------- | ------------------------------------------------------------ |
+| **Id**                     | Unique identifier assigned to each review                    |
+| **ProductId**              | Unique code representing each product                        |
+| **UserId**                 | Unique identifier of the customer/reviewer                   |
+| **ProfileName**            | Name of the reviewer                                         |
+| **HelpfulnessNumerator**   | Number of users who found the review helpful                 |
+| **HelpfulnessDenominator** | Total number of users who evaluated the review's helpfulness |
+| **Score**                  | Product rating given by the user (1 to 5)                    |
+| **Time**                   | Timestamp of when the review was posted                      |
+| **Summary**                | Short summary/title of the review                            |
+| **Text**                   | Complete review text provided by the customer                |
+
+
 🛠 Tools and Technologies
-Technology	Purpose
-Python	Programming and data analysis
-Pandas, NumPy	Data processing
-NLTK, TextBlob, Vader	Sentiment analysis and NLP
-Matplotlib, Seaborn	Visualization
-Jupyter Notebook	Development environment
+| **Technology**            | **Purpose**                                                 |
+| ------------------------- | ----------------------------------------------------------- |
+| **Python**                | Programming and data analysis                               |
+| **Pandas, NumPy**         | Data cleaning, manipulation, and processing                 |
+| **NLTK, TextBlob, VADER** | Sentiment analysis and Natural Language Processing (NLP)    |
+| **Matplotlib, Seaborn**   | Data visualization and insights representation              |
+| **Jupyter Notebook**      | Development, experimentation, and documentation environment |
+
 🔄 Analysis Workflow
 
 Import and explore dataset
